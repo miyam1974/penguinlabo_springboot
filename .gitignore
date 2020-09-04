@@ -1,0 +1,39 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Eclipse
+.project
+.classpath
+.settings
+
+# Idea
+.idea
+*.iml
+*.iws
+*.ipr
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Ignore Gradle project-specific cache directory
+.gradle
+!gradle-wrapper.jar
+
+# Ignore Gradle build output directory
+build
+
+# Maven
+target
+
+# Build
+out
+bin
+
+# Other
+*.log
+*.swp
+*.bak
