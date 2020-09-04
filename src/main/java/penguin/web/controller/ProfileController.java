@@ -16,7 +16,7 @@ public class ProfileController {
         return name;
     }
 
-    @RequestMapping("name")
+    @RequestMapping(value = {"name", "/"})
     public String name() {
         return "name";
     }
