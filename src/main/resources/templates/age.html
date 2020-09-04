@@ -7,6 +7,7 @@
 <body>
 <form th:action="@{/profile/hello}" method="post">
     <p>
+        <input type="hidden" name="name" th:value="${name}" />
         <label for="age"><span th:text="${name}">あなた</span>さんの年齢を入力してください</label>
         <input type="text" name="age" id="age">
     </p>

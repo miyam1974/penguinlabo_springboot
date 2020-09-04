@@ -17,7 +17,8 @@ public class ProfileController {
         return "age";
     }
     @RequestMapping(path = "hello", method = RequestMethod.POST)
-    public String hello(@RequestParam("age") String age, Model model) {
+    public String hello(@RequestParam("name") String name, @RequestParam("age") String age, Model model) {
+        model.addAttribute("name", name);
         model.addAttribute("age", age);
         return "hello";
     }
